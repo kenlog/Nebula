@@ -27,7 +27,7 @@ You have the choice between 3 methods:
 2. Download the zip file and decompress everything under the directory `plugins/Nebula`
 3. Clone this repository into the folder `plugins/Nebula`
 
-Note: Plugin folder is case-sensitive.
+Note: Plugin folder is case-sensitive.  
 **Important: remove all unused themes**
 
 Add options for the theme
