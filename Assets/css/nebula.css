@@ -41,6 +41,7 @@ hr {
 }
 .select-dropdown-input-container {
     background-color: #3f4759!important;
+    max-width: 300px;
 }
 .page {
 	margin-left:10px;
@@ -1240,8 +1241,7 @@ td a.dropdown-menu:hover i {
 	color:#555;
 	position:absolute;
 	top:4px;
-	right:5px
-	max-width: 300px;
+	right:5px;
 }
 #suggest-menu {
 	position:absolute;
