@@ -1951,7 +1951,7 @@ div.draggable-item-selected {
 .task-board {
 	position:relative;
 	margin-bottom:4px;
-	border:0px solid #000;
+	border:2px solid;
 	padding:10px;
 	word-wrap:break-word;
 	font-size:0.9em;
