@@ -40,7 +40,7 @@ hr {
     color: #ced4da!important;
 }
 .select-dropdown-input-container {
-    background-color: #3f4759!important;
+    background-color: #313846!important;
     max-width: 300px;
 }
 .page {
@@ -124,7 +124,7 @@ table.table-small {
 	font-size:0.8em
 }
 table.table-striped tr:nth-child(odd) {
-	background:#3f4759
+	background:#313846
 }
 @media (max-width: 768px) {
 	table.table-scrolling {
@@ -139,7 +139,7 @@ table th {
 	text-align:left;
 	padding:0.5em 3px;
 	border:0px solid #eee;
-	background:#343b4a
+	background:#313846
 }
 table th a {
 	text-decoration:none;
@@ -525,13 +525,13 @@ tr.draggable-item-selected td:last-child {
 	border-left:0px solid #e5e5e5
 }
 .table-list-row:nth-child(odd) {
-	background:#3f4759
+	background:#313846
 }
 .table-list-row:last-child {
 	border-radius:0 0 5px 5px
 }
 .table-list-row:hover {
-	background:#3f4759;
+	background:#313846;
 	border-bottom:0px solid #ffeb8e;
 	border-right:0px solid #ffeb8e
 }
@@ -649,7 +649,7 @@ input[type="number"],input[type="date"],input[type="email"],input[type="password
 
 	line-height: 1.5;
 	color: #fff;
-	background-color: #3f4759;
+	background-color: #313846;
 	border: 2px solid #4a5368;
 	border-radius: .25rem;
 	-webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
@@ -708,7 +708,7 @@ textarea {
 	font-size:1em;
 	line-height: 1.5;
 	color: #fff;
-	background-color: #3f4759;
+	background-color: #313846;
 	border: 2px solid #4a5368;
 	border-radius: .25rem;
 	-webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
@@ -728,7 +728,7 @@ textarea:-ms-input-placeholder {
 select{
 	max-width:95%;
 	border: 3px solid #4a5368;
-	background: #3f4759;
+	background: #313846;
 	padding: 3px;
     color:#eee;
 }
@@ -1290,7 +1290,7 @@ td a.dropdown-menu:hover i {
 	padding: 20px;
 	left:50%;
 	transform:translateX(-50%);
-	background:#3f4759;
+	background:#313846;
 	overflow:auto;
 	border-radius:5px
 }
@@ -1327,7 +1327,7 @@ header {
 	box-shadow: 0px 1px 3px 0 rgba(46,61,73,.12);
 	padding: 15px 10px;
 	margin-bottom: 15px;
-	background: #3f4759;
+	background: #313846;
 }
 .header img {
   float: left;
@@ -1488,7 +1488,7 @@ a i.web-notification-icon:focus,a i.web-notification-icon:hover {
 .sidebar {
 	max-width:25%;
 	min-width:230px;
-	background-color: #3f4759;
+	background-color: #313846;
 	padding: 20px;
 }
 @media (max-width: 768px) {
@@ -2272,20 +2272,20 @@ span.task-date-overdue {
 	height:90px
 }
 .comments .comment-highlighted {
-	background-color:#3f4759;
+	background-color:#313846;
 	border:2px solid #ffeb8e
 }
 .comments .comment-highlighted:hover {
-	background-color:#3f4759
+	background-color:#313846
 }
 .comments .comment:hover {
-	background:#3f4759
+	background:#313846
 }
 .comments .comment:nth-child(even):not(.comment-highlighted) {
 	background:#343b4a
 }
 .comments .comment:nth-child(even):not(.comment-highlighted):hover {
-	background:#3f4759
+	background:#313846
 }
 .subtask-cell {
 	padding:4px 10px;
@@ -2442,7 +2442,7 @@ span.task-date-overdue {
 	margin-bottom:15px;
 	border:0px solid #ddd;
 	color:#ced4da;
-	background-color:#3f4759;
+	background-color:#313846;
 	overflow:auto
 }
 .panel li {
@@ -2455,10 +2455,10 @@ span.task-date-overdue {
 	padding:10px
 }
 .activity-event:nth-child(even) {
-	background:#3f4759
+	background:#313846
 }
 .activity-event:hover {
-	background:#3f4759
+	background:#313846
 }
 .activity-date {
 	margin-left:10px;
