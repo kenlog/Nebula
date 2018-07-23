@@ -3,7 +3,10 @@
 This theme allows you to add special features like replacing the logo and adds syntax highlighting for Markdown code.
 
 # Screenshot
-
+![screencapture-localhost-php-kanboard-dashboard-2018-07-22-20_36_07](https://user-images.githubusercontent.com/11728231/43059362-5f599c0e-8e4c-11e8-8989-8bc623914a49.png)
+![screencapture-localhost-php-kanboard-board-1-2018-07-22-20_36_43](https://user-images.githubusercontent.com/11728231/43059361-5f3314da-8e4c-11e8-85a4-04d28c71f027.png)
+![screencapture-localhost-php-kanboard-project-1-task-2-2018-07-22-20_39_22](https://user-images.githubusercontent.com/11728231/43059363-5f7c974a-8e4c-11e8-9f00-1f5864e18a96.png)
+![screencapture-localhost-php-kanboard-board-1-2018-07-22-20_14_17](https://user-images.githubusercontent.com/11728231/43059360-5f0f1f80-8e4c-11e8-87d1-7a3b41ea26c4.png)
 
 Author
 ------------
