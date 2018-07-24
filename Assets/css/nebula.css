@@ -20,7 +20,7 @@ body {
 small {
 	font-size:0.8em
 }
-::selection{background:rgba(249,230,5,0.5);color:#ffeb8e}::-moz-selection{background:rgba(249,230,5,0.5);color:#ffeb8e}
+::selection{background:rgba(113,113,113,0.5);color:#ffffff}::-moz-selection{background:rgba(113,113,113,0.5);color:#ffffff}
 hr {
 	border:0;
 	height:0;
@@ -28,16 +28,16 @@ hr {
 	border-bottom:0px solid rgba(255,255,255,0.3)
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #ced4da!important;
+    color: #ffffff!important;
     opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #ced4da!important;
+    color: #ffffff!important;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-    color: #ced4da!important;
+    color: #ffffff!important;
 }
 .select-dropdown-input-container {
     background-color: #313846!important;
@@ -89,7 +89,7 @@ a .fa {
 }
 h1,h2,h3 {
 	font-weight:normal;
-	color:#ced4da
+	color:#ffffff
 }
 h1 {
 	font-size:1.5em
@@ -1196,7 +1196,7 @@ td a.dropdown-menu:hover i {
 	border:0px solid #ccc;
 	border-radius:3px;
 	box-shadow:0 6px 12px rgba(0,0,0,0.175);
-	overflow:scroll
+	overflow-x: hidden;
 }
 .select-dropdown-menu-item {
 	white-space:nowrap;
@@ -1532,7 +1532,7 @@ a i.web-notification-icon:focus,a i.web-notification-icon:hover {
 .sidebar-icons>ul li:hover,.sidebar-icons>ul li.active {
 	padding-left: 10px;
 	border-left: none;
-	background-color: #343b4a;
+	background-color: #3b404b;
 }
 .sidebar>ul li.active a:focus,.sidebar>ul li.active a:hover {
 	color:#ced4da
