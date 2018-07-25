@@ -2509,7 +2509,8 @@ span.task-date-overdue {
 }
 .image-slideshow-overlay img {
 	display:block;
-	margin:auto
+	margin:auto;
+	max-width: 100%;
 }
 .image-slideshow-overlay figcaption {
 	color:#fff;
