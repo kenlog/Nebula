@@ -1033,13 +1033,13 @@ a.btn {
 	color:#999
 }
 #tooltip-container {
-	padding:5px;
-	background:#fff;
-	border:0px solid #ddd;
-	border-radius:4px;
-	box-shadow:0 6px 12px #aaa;
-	position:absolute;
-	min-width:350px
+	padding: 5px;
+    background: #3a404c;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    box-shadow: -1px -1px 7px #aaa;
+    position: absolute;
+    min-width: 350px;
 }
 #tooltip-container .markdown p {
 	margin-bottom:0
