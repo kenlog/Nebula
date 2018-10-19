@@ -3,7 +3,7 @@
             <a href="<?= $this->url->href('DashboardController', 'show', array(), false, '', t('Dashboard')) ?>">
                 <img src="<?= $this->url->href('CustomizerFileController', 'image', array('plugin' => 'customizer', 'file_id' => $this->task->customizerFileModel->getIdByType(1))) ?>" height="50">
             </a>
-            <h2 style="color:<?= $themeMoonConfig['HeadingTitleColor'] ?>">
+            <h2>
                 <?php if (! empty($project) && ! empty($task)): ?>
                     <?= $this->url->link($this->text->e($project['name']), 'BoardViewController', 'show', array('project_id' => $project['id'])) ?>
                 <?php else: ?>
