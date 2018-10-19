@@ -32,6 +32,8 @@ class Plugin extends Base
         $this->hook->on('template:layout:js', array('template' => 'plugins/Nebula/Assets/js/clipboard.min.js'));
 
         $this->hook->on('template:layout:js', array('template' => 'plugins/Nebula/Assets/js/prism.js'));
+
+        $this->hook->on('template:layout:js', array('template' => 'plugins/Nebula/Assets/js/nebula.js'));
     }
 
     public function getPluginName()
