@@ -18,11 +18,13 @@ class Plugin extends Base
 
         if (file_exists('plugins/Customizer')) 
 		{
-			$this->template->setTemplateOverride('header/title', 'Nebula:layout/header/customizerTitle');
+            $this->template->setTemplateOverride('header/title', 'Nebula:layout/header/customizerTitle');
+            $this->template->setTemplateOverride('layout', 'Nebula:layout');
 		}
 			elseif (isset($themeNebulaConfig['logo'])) 
         {
             $this->template->setTemplateOverride('header/title', 'Nebula:layout/header/title');
+            $this->template->setTemplateOverride('layout', 'Nebula:layout');
         }
 		
         $this->hook->on("template:layout:css", array("template" => "plugins/Nebula/Assets/css/nebula.css"));
