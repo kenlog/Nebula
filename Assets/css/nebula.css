@@ -2706,11 +2706,11 @@ div.ganttview-vtheader-series-name a:hover {
 }
 
 div.ganttview-vtheader-series-name a i {
-    color: #000;
+    color: #f5f5f5!important;
 }
 
 div.ganttview-vtheader-series-name a:hover i {
-    color: #555;
+    color: #eee!important;
 }
 
 div.ganttview-slide-container {
