@@ -20,11 +20,13 @@ class Plugin extends Base
 		{
             $this->template->setTemplateOverride('header/title', 'Nebula:layout/header/customizerTitle');
             $this->template->setTemplateOverride('layout', 'Nebula:layout');
+            $this->template->setTemplateOverride('header/creation_dropdown', 'Nebula:layout/header/creation_dropdown');
 		}
 			elseif (isset($themeNebulaConfig['logo'])) 
         {
             $this->template->setTemplateOverride('header/title', 'Nebula:layout/header/title');
             $this->template->setTemplateOverride('layout', 'Nebula:layout');
+            $this->template->setTemplateOverride('header/creation_dropdown', 'Nebula:layout/header/creation_dropdown');
         }
 		
         $this->hook->on("template:layout:css", array("template" => "plugins/Nebula/Assets/css/nebula.css"));
