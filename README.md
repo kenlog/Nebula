@@ -2,6 +2,7 @@
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/kenlog/Nebula/blob/master/LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/kenlog/Nebula/graphs/contributors)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)]()
+[![Downloads](https://img.shields.io/github/downloads/kenlog/Nebula/total.svg)](https://github.com/kenlog/Nebula/releases)
 
 # Nebula plugin (modern theme for kanboard)
 
