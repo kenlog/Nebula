@@ -1329,15 +1329,13 @@ header {
 	margin-bottom: 15px;
 	background: #313846;
 }
-.header img {
-  float: left;
+.header {
+	display: flex;
+	align-items: center;
 }
 .header h2 {
-  position: relative;
-  color:#ced4da;
-  top: 16px;
-  left: 10px;
-  margin: 0;
+	color: #ced4da;
+	margin: 0 0 0 0.5em;
 }
 header .title-container {
 	flex:1;
