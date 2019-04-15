@@ -4,7 +4,7 @@
 /*******************************************************************/
 
 // Replace the KB logo with your own logo
-// Just copy your logo-file in the "data/files/Nebula/Assets/images" directory in the plugin directory
+// Just copy your logo-file in the "data/files/Nebula/Assets/images"
 // The file should be to 50 Pixel is a good height
 // Uncomment the next line. 
 
