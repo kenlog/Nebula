@@ -11,9 +11,13 @@ class Plugin extends Base
     {
         global $themeNebulaConfig;
 
-        if (file_exists('plugins/Nebula/config.php')) 
+        if (file_exists(DATA_DIR . '/files/Nebula/config.php')) 
         {
-            require_once('plugins/Nebula/config.php');
+            require_once(DATA_DIR . '/files/Nebula/config.php');
+        } else { 
+            mkdir(DATA_DIR . '/files/Nebula/Assets/images', 0755, true); 
+            copy('plugins/Nebula/config.php', DATA_DIR . '/files/Nebula/config.php');
+            copy('plugins/Nebula/Assets/images/brand-logo.png', DATA_DIR . '/files/Nebula/Assets/images/brand-logo.png');
         }
 
         if (file_exists('plugins/Customizer')) 
