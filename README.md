@@ -12,6 +12,8 @@
 
 # Nebula plugin (modern theme for kanboard)
 
+<noscript><a href="https://liberapay.com/kenlog/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+
 This theme allows you to add special features like replacing the logo and adds syntax highlighting for Markdown code.
 
 # Screenshot
