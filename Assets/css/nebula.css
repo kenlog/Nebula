@@ -2121,12 +2121,14 @@ span.task-date-overdue {
 	color:#b94a48
 }
 .task-tags li {
-	display:inline-block;
-	margin:3px 3px 0 0;
-	padding:1px 3px 1px 3px;
-	color:#ced4da;
-	border:0px solid #ced4da;
-	border-radius:4px
+        display:inline-block;
+        margin:3px 3px 0 0;
+        padding:1px 3px 1px 3px;
+        border:0px solid #ced4da;
+        border-radius:4px
+}
+.task-tags li:not([class*="color-"]) {
+        color:#ced4da;
 }
 .select2-container--default .select2-results__option[aria-selected="true"] {
     background-color: #e5e5e5;
