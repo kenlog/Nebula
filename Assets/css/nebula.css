@@ -2105,6 +2105,9 @@ span.task-icon-age-column {
 	padding:1px 3px 1px 2px;
 	border-radius:3px
 }
+.task-board-category-container > span[class*="color-"] > a {
+        color:#313846;
+}
 .task-board-category a:hover {
 	text-decoration:underline
 }
