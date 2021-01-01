@@ -28,19 +28,19 @@
             </li>
             <li>
                 <i class="fa fa-th" aria-hidden="true"></i>
-                <?= $this->url->link(t('Overview'), 'DashboardController', 'show', array('user_id' => $user['id'])) ?>
+                <?= $this->url->link(t('Overview'), 'DashboardController', 'show') ?>
             </li>
             <li>
                 <i class="fa fa-clone" aria-hidden="true"></i>
-                <?= $this->url->link(t('My projects'), 'DashboardController', 'projects', array('user_id' => $user['id'])) ?>
+                <?= $this->url->link(t('My projects'), 'DashboardController', 'projects') ?>
             </li>
             <li>
                 <i class="fa fa-tasks" aria-hidden="true"></i>
-                <?= $this->url->link(t('My tasks'), 'DashboardController', 'tasks', array('user_id' => $user['id'])) ?>
+                <?= $this->url->link(t('My tasks'), 'DashboardController', 'tasks') ?>
             </li>
             <li>
                 <i class="fa fa-sliders" aria-hidden="true"></i>
-                <?= $this->url->link(t('My subtasks'), 'DashboardController', 'subtasks', array('user_id' => $user['id'])) ?>
+                <?= $this->url->link(t('My subtasks'), 'DashboardController', 'subtasks') ?>
             </li>
         </ul>
     </div>
